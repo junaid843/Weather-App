@@ -25,7 +25,7 @@ st.markdown("""
     
     html, body, [class*="css"]  {
         font-family: 'Inter', sans-serif;
-        background-color: #0e1117;
+        background-color: #000000;  /* Changed to black */
         color: #ffffff;
     }
 
