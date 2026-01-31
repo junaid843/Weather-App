@@ -116,6 +116,17 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+# ============ MObile BAckground=============
+st.markdown("""
+<style>
+html, body, [class*="css"], .main, .block-container {
+    background-color: #000000 !important;  /* Force black background on mobile */
+    color: #ffffff !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
 # ================= HEADER =================
 st.markdown('<div class="header-container"><div class="header-title">Weather Analytics</div></div>', unsafe_allow_html=True)
 
